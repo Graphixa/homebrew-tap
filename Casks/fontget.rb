@@ -14,22 +14,22 @@ cask "fontget" do
   on_macos do
     on_intel do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_darwin_amd64.tar.gz"
-      sha256 "7e0f4bf029e2a1094a669005cc750deb9eb2529af91eadcfcc41880a13ebb401"
+      sha256 "aa04ed27ba0c452a69198cff4a235e8c3fb787472dc9e570cad0fbbfd9b319b5"
     end
     on_arm do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_darwin_arm64.tar.gz"
-      sha256 "4a4be16d80b98e7fb614560116eb6d9a2e56eec74a2e6ec470051ed314319fad"
+      sha256 "f4a215b186e92df37cc9c390cbe1fa8dd6566f4c0cb0e43614a30f4a3b0f4677"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_linux_amd64.tar.gz"
-      sha256 "92c6eb7dc7944a194ce32ada2f0204abb3225740422af4ad4de9b331db2f2626"
+      sha256 "466b9e3d3a721af31ad801ad9017642dd1325274cdbd68c74b96b1b9be737a14"
     end
     on_arm do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_linux_arm64.tar.gz"
-      sha256 "6e8710a289d38f0ebc9c0ee82c1fdee93e947f317de5cca576d9ed1df699ebc3"
+      sha256 "242bd5b89590ef3b9ccaf5be28f7fa3602521ef91bbf11bbed5dea64e1f46099"
     end
   end
 
