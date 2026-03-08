@@ -3,7 +3,7 @@ cask "fontget" do
   name "fontget"
   desc "A tiny, cross-platform CLI tool to install and manage fonts from the command line. Search for fonts, list installed fonts, install or remove fonts all from the CLI."
   homepage "https://github.com/Graphixa/FontGet"
-  version "2.3.3"
+  version "2.3.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fontget" do
   on_macos do
     on_intel do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_darwin_amd64.tar.gz"
-      sha256 "66ee196caf9e6f887ca1735e8f8a7d98760100be4caeefef1f3b1234667c4188"
+      sha256 "fe59be81a3ce2d136e974a74d79e6983339825518f1c811bdc81c5519f092283"
     end
     on_arm do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_darwin_arm64.tar.gz"
-      sha256 "039995c033a788acf2cd07d4c9d76adcb30f4ace1de32685b5596a4b1ce0c225"
+      sha256 "99455209217d52994a5a7b849b7f2c0de088a6903242ba1ef5db579994fe37b0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_linux_amd64.tar.gz"
-      sha256 "d9b4882799d04d475e3d2a31b7d9edb209fff1b9d429f1dfb187225344b9c4d1"
+      sha256 "9bf5ddea107876ee49f5557a89f65966ee8901d3835303fb0cf29b9ad881a0fd"
     end
     on_arm do
       url "https://github.com/Graphixa/FontGet/releases/download/v#{version}/fontget_#{version}_linux_arm64.tar.gz"
-      sha256 "a5caee1d59a65cf8ae4af60fa8a9f712bcf9daabb5b8b3084c51ee40c3fc1157"
+      sha256 "889c19893232cc19f15d60805ae756d3d0f3fa8bc32ca7ed99132a0e2e79dffd"
     end
   end
 
